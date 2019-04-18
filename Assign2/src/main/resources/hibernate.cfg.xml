@@ -21,8 +21,9 @@
         <!-- Update database on startup -->
         <property name="hibernate.hbm2ddl.auto">update</property>
 
-        <!-- Annotated entity classes -->
-        <mapping class="entity.StudentData"/>
+        <!-- Annotated Model.Repository.entity classes -->
+        <mapping class="Model.entity.StudentData"/>
+        <mapping class="Model.entity.NoteData"/>
 
     </session-factory>
 </hibernate-configuration>
